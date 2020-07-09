@@ -1,0 +1,4 @@
+SELECT * FROM employees AS empl 
+INNER JOIN dept_emp AS dept ON empl.emp_no = dept.emp_no 
+INNER JOIN departments AS depr ON dept.dept_no = depr.dept_no 
+WHERE depr.dept_name = 'Research' AND empl.hire_date >= '1992-01-01 00:00:00' AND empl.hire_date <= '1992-12-31 23:59:59'

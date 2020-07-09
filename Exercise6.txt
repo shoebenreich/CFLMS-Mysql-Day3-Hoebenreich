@@ -1,0 +1,2 @@
+SELECT * FROM employees 
+INNER JOIN salaries ON salaries.emp_no = employees.emp_no WHERE salaries.salary >= 70000 GROUP BY employees.emp_no ;

@@ -1,0 +1,2 @@
+SELECT COUNT(emp_no) FROM employees WHERE hire_date >= '1990-01-01 00:00:00' AND hire_date <= '1996-12-31 23:59:59';
+SELECT * FROM employees WHERE hire_date >= '1990-01-01 00:00:00' AND hire_date <= '1996-12-31 23:59:59';
